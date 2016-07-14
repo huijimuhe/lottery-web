@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>泸州农信抽奖系统-@yield('title')</title>
+        <title>抽奖系统-@yield('title')</title>
         <!-- Tell the browser to be responsive to screen width -->
         <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
         <link rel="shortcut icon" href="{{ asset('favicon.ico') }}"/>
@@ -45,7 +45,7 @@
                     <!-- mini logo for sidebar mini 50x50 pixels -->
                     <span class="logo-mini"><b>抽奖</b></span>
                     <!-- logo for regular state and mobile devices -->
-                    <span class="logo-lg"><b>泸州农信抽奖系统</b></span>
+                    <span class="logo-lg"><b>抽奖系统</b></span>
                 </a>
                 <!-- Header Navbar: style can be found in header.less -->
                 <nav class="navbar navbar-static-top" role="navigation">
@@ -172,9 +172,7 @@
 
             <footer class="main-footer">
                 <div class="pull-right hidden-xs">
-                    技术支持：曾维周 QQ：20903213
                 </div>
-                <strong> 泸州农信&copy; 2015</strong> 
             </footer>
         </div><!-- ./wrapper -->
 

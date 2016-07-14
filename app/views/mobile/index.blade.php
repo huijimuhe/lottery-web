@@ -6,7 +6,6 @@
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-status-bar-style" content="black">
         <meta name="format-detection" content="telephone=no">
-        <title>微信周周抢现金</title>
         <link href="{{asset('public/css/activity-style.css')}}" rel="stylesheet" type="text/css">
         <!-- Bootstrap 3.3.5 -->
         <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -57,7 +56,7 @@
             <div class="col-xs-10">
 
                 <div class="form-group"> 
-                    {{ Form::text('phone',null,array('class' => 'form-control phone-input','id'=>'phone',  'placeholder'=>'请输入手机银行绑定的手机号' )) }}
+                    {{ Form::text('phone',null,array('class' => 'form-control phone-input','id'=>'phone',  'placeholder'=>'请输入手机号' )) }}
                 </div>
                 <div class="form-group"> 
                     {{ Form::button('确定', array('class' => 'btn btn-primary btn-block','id'=>'jump')) }} 

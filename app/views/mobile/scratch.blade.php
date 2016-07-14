@@ -6,7 +6,6 @@
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-status-bar-style" content="black">
         <meta name="format-detection" content="telephone=no">
-        <title>微信周周抢现金</title>
         <link href="{{asset('public/css/activity-style.css')}}" rel="stylesheet" type="text/css"> 
         <style>
             body{
@@ -37,7 +36,7 @@
             <div class="cover">
                 <img src="{{asset('public/img/scratch-bg.png')}}">
                 <div id="win" style="display:none">      
-                    <h6>恭喜您中奖，我们将在3个工作日内把奖金转入您的农信账户。<h6>
+                    <h6>恭喜您中奖<h6>
                             </div>
                             <div id="prize">   
                             </div> 
